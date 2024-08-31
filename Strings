@@ -1,0 +1,8 @@
+# String fumction 
+str="Python is easy" 
+print(str)
+print(str[0])
+print(str[1:9])
+print(str[ :6])
+print(str[7:4]) 
+print(str*2)
