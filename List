@@ -1,0 +1,11 @@
+list 
+list=["s","1.23","45","python"]
+list1=["easy","676","t"]
+print(list[0:1]) 
+print(list[2:3])
+print(list1[0:3])
+print(list[ :1])
+print(list[2: ])
+print(list1[ :1])
+print(list1[2: ])
+print(list + list1) 
