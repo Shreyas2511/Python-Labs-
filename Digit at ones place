@@ -1,0 +1,4 @@
+# Digit at ones place
+a=int(input("Enter no :"))
+b= a %10
+print(b)
