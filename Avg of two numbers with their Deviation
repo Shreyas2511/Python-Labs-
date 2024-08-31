@@ -1,0 +1,9 @@
+ Average of two numbers and their Deviation
+a=int(input("Enter the value of a :"))
+b=int(input("Enter the value of b :"))
+c=(a+b)/2
+print("Avg of two no is :",avg) 
+d= a-c
+print("deviation 1 : ",d) 
+e=b-c
+print("deviation 2 : ",e) 
