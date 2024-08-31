@@ -1,0 +1,4 @@
+#dictionary
+dict={"shreyas":"likes to","watch":"anime"}
+print(dict['shreyas']) 
+print(dict['watch'])
