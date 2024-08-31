@@ -1,0 +1,14 @@
+# Type conversion
+a=10
+print(type(a)) 
+b=3.4
+print(type(b)) 
+c="easy"
+print(type(c)) 
+a=input("Enter a character")
+print("ASCII value is :",ord(a))  
+
+#Type conversion
+a=7
+print(hex(a)) 
+print(oct(a))  
