@@ -1,0 +1,6 @@
+#odd even
+a=int(input("enter no"))
+if(a%2==0):
+    print("Entered element is EVEN")
+else:
+    print("Entered element is ODD")
