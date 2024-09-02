@@ -1,0 +1,8 @@
+#find larger numbers among two numbers
+a=int(input("enter no"))
+b=int(input("enter no"))  
+
+if(a>b):
+    print("A is larger")
+else:
+    print("B is larger")
