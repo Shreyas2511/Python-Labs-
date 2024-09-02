@@ -1,0 +1,8 @@
+#range
+a=int(input("enter no between 0 to 10"))
+if(a<10 and a>=0):
+    print("Entered element is between 0 to 10")
+if(a<20 and a>=11):
+    print("Entered element is betwwen 11 to 20")
+if(a<30 and a>=21):
+    print("Entered element is between 21 to 30")
