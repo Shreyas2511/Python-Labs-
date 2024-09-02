@@ -1,0 +1,12 @@
+#swapping with using 3rd variable
+A=int(input("Enter no"))
+B=int(input("Enter no"))
+print("BEFORE SWAPPING")
+print("A =",A)
+print("B =",B)
+TEMP=A
+A=B
+B=TEMP
+print("AFTER SWAPPING")
+print("A =",A)
+print("B =",B)
