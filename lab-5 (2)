@@ -1,0 +1,10 @@
+data=[10,25,37,86,50,65,70,85]
+target=86
+found = False
+for index in range(len(data)):
+  if data[index] == target:
+    print("Element found at index",index)
+    found = True
+    break
+else:
+  print("Element not found ")
