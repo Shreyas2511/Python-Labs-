@@ -1,0 +1,18 @@
+#To check the average marks of student
+math = float(input("Enter Marks for Maths :"))
+science = float(input("Enter Marks for science  :"))
+social = float(input("Enter Marks for social  :"))
+comp = float(input("Enter Marks for   :"))
+total =  math+science+social+comp
+agg =  total/4
+print("Total :",total,"\t Aggregate :",agg)
+if(agg>=75):
+  print("Grade:Distinction")
+elif(agg>=60 and agg<75):
+  print("Grade: First Division")
+elif(agg>= 50 and agg<60):
+  print("Grade : Second Division")
+elif(agg>=40 and agg<50):
+  print("Grade: Third Division")
+else:
+  print("Fail")
