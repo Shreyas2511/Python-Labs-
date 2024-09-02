@@ -1,0 +1,8 @@
+#0,+ve,-ve
+a=int(input("enter no"))
+if(a==0):
+    print("Entered element is ZERO")
+if(a>0):
+    print("Entered element is positive")
+if(a<0):
+    print("Entered element is nagative")
