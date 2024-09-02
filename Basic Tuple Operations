@@ -1,0 +1,9 @@
+#tuple - length
+r=("d","F","t")
+print(len(r)) 
+
+#tuple - single element
+t=("a",)
+print(type(t))
+t1=("a")
+print(type(t1)) 
