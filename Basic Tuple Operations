@@ -7,3 +7,51 @@ t=("a",)
 print(type(t))
 t1=("a")
 print(type(t1)) 
+
+#empty tuple
+t=()
+print(t)
+
+#integer tuple
+t=(1,2,3)
+print(t)
+
+#character tuple
+t=('d','e')
+print(t)
+
+#string tuple
+t=("PCU","BTech")
+print(t)
+
+#mix tuple
+t=("car",'c',3)
+print(t)
+
+t=(1,2,3,4,5)
+#del t[4]
+print(t)
+#type error
+#we can't edit in tuple
+del t
+#print(t)
+#name error
+
+#index
+t=(1,2,3,4,5,6,7,8,9,10)
+print(t.index(4))
+
+#count
+t=(1,2,3,4,2)
+print(t.count(2))
+
+#zip
+tuple=(1,2,3)
+list=['a','b','c']
+
+#sorted
+tu=(1,4,67,34,1)
+print(tu)
+print(sorted(tu))
+
+
