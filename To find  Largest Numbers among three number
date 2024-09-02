@@ -1,0 +1,10 @@
+#find largest numbers among three numbers
+a=int(input("enter no"))
+b=int(input("enter no")) 
+c=int(input("enter no"))
+if(a>b and a>c):
+    print("a is largest")
+elif(b>a and b>c):
+    print("b is largest")
+else:
+    print("c is largest")
