@@ -1,0 +1,4 @@
+#get vowels without repitition from the sentence(set comprehension)
+sentence = "The rocket came back from Mars."
+vowels = {char for char in sentence if char.lower() in "aeiou"}
+print(vowels)
