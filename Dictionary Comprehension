@@ -11,3 +11,12 @@ print(dict)
 #dictionary of square roots of numbers from 100 to 1
 roots = {x:round(x**(0.5),2) for x in range(100, 94, -1)}
 print(roots)
+
+developers = {'Jane': 'Python', 'Jade': 'JavaScript', 'John': 'Python', 'Doe': 'Ruby'}
+python_developers = {x:developers[x] for x in developers if developers[x] == 'Python'}
+print(python_developers)
+
+admins = {'Alice': 'Ubuntu', 'Bob': 'Windows', 'Charlie': 'Ubuntu', 'David': 'MacOS', 'Eve': 'Ubuntu'}
+ubuntu_admins = {x:admins[x] for x in admins if admins[x] == 'Ubuntu'}
+print(ubuntu_admins)
+
