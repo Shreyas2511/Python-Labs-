@@ -1,0 +1,3 @@
+#numbers from 1 to 100
+number = [num for num in range(1, 101)]
+print(number)
