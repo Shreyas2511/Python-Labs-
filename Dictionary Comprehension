@@ -1,0 +1,13 @@
+#dictionary comprehension, squares from 1 to 5 in key value pair
+squares = {key:key**2 for key in range(1,6)}
+print(squares)
+
+#creating dictionary using key and value lists by dictionary comprehension
+keys = ['a', 'b', 'c', 'd']
+values = [1, 2, 3, 4]
+dict = {keys[i]:values[i] for i in range(len(keys))}
+print(dict)
+
+#dictionary of square roots of numbers from 100 to 1
+roots = {x:round(x**(0.5),2) for x in range(100, 94, -1)}
+print(roots)
