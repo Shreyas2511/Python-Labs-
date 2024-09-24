@@ -1,0 +1,5 @@
+# Write  a Python program to create a 3-By-3  Matrix
+import numpy as np
+array = np.identity(3)
+print("3*3 Identity Matrix : ")
+print(array)
