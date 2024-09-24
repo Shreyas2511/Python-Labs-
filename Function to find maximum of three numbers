@@ -1,0 +1,4 @@
+# Function to find maximum of three numbers
+def max_of_three(x,y,z):
+  return max_of_three(x,max_of_two(y,z))
+  print (max_of_three(3,6,7))
