@@ -1,0 +1,6 @@
+# Write a python program  to test element-wise for nan(not a number of given array)
+import numpy as np
+array= np.array([1,0,np.nan,np.inf])
+print(array)
+print (" Test element wise of Nan")
+print(np.isnan(array))
