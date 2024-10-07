@@ -1,0 +1,15 @@
+#Protected Members
+class base:
+  def __init__(self):
+    #protected member
+    self._a=2
+class derived(base):
+  def __init__(self):
+    base.__init__(self)
+    print("calling protected members of base class:",self._a)
+    self._a=3
+    print("Calling Modified protected Members outside class:",self._a)
+object1 = derived()
+object2 = base()
+print("According protected member of object 1 :",object1._a)
+print("Accessing protected member of object 2 :",object2._a)
