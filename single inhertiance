@@ -1,0 +1,20 @@
+#single inhertiance
+class Parent:
+  #Parent Class Definition
+  def __init__(self,name):
+    self.name = name
+  def greet(self):
+    print(f"Hello,I am {self.name}.")
+class child(Parent):
+  #Child Class Definition
+  def __init__(self,name,age):
+    #Calling Constructor of the Parent class
+    super().__init__(name)
+    self.age = age
+  def display_age(self):
+    print(f"{self.name}")
+parent1= Parent("ABC")
+child1 = child("xyz",10)
+parent1.greet()
+child1.greet()
+child1.display_age()
